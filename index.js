@@ -22,7 +22,8 @@ function keepGoing(array, changeValue, skipValue){
 function findBy(array, findFn) {
   for (var i = 0; i < array.length; i++) {
     if (findFn(array[i])) {
-      //I believe that is how we are checking that findFn is in the array that we are looping thru
+      //I believe that is how we are checking 
+      //that findFn is in the array that we are looping thru
       return array[i];
     }
   }
